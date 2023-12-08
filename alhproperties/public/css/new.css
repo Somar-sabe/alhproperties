@@ -1,0 +1,20 @@
+
+/* ALL PAGES CSS */
+/* Your max width code replaces the code below */
+@media only screen and (min-width: 1400px) {
+	body {font-size: 0.975em;}
+}
+/* Desktop Only CSS (i.e. hover states) */
+@media only screen and (min-width: 992px) {
+}
+
+      
+  input:focus~.floating-label,
+  input:not(:focus):valid~.floating-label,
+  input[type=email]:not(:placeholder-shown)~.floating-label {
+    bottom: 35px;
+    font-size: 11px;
+  }
+  .input-text:focus {
+    outline: none;
+  }
